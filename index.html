@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela de YouTubers</title>
+  <link rel="stylesheet" href="assets/css/styles.css"> 
+  <script src="./assets/js/app.js" defer></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h2>Escuela de YouTubers</h2>
+  <nav class="nav-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#personajes">Personajes</a>
+    <a href="episodios.html">Episodios</a>
+    <a href="#about">Sobre la serie</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero section" id="inicio">
+  <h1>Escuela de YouTubers</h1>
+  <p>Una serie donde futuros creadores entrenan… o explotan cámaras en el intento.</p>
+  <a href="https://youtu.be/JTkmOKg5EmE?si=nqHHGe1dytJcKf5a" class="btn">Ver Capítulo 0</a>
+</section>
+
+<!-- PERSONAJES PRINCIPALES -->
+<section class="personajes section" id="personajes">
+  <h2>Personajes Principales</h2>
+  <div class="grid">
+    <div class="card"><h3>Marte</h3><p>Protagonista. Inteligente, caótico y más peligroso aburrido que un rinoceronte sin frenos.</p><img src="assets/img/Personajes/Marte.webp" alt="Marte"></div>
+    <div class="card"><h3>Dario</h3><p>El zen del grupo. Le gusta pintar y arreglar problemas con palabras.</p><img src="assets/img/Personajes/Dario.webp" alt="Dario"></div>
+    <div class="card"><h3>Gokugamer</h3><p>Hermano de Marte. Loco pero más calmado… a veces.</p><img src="assets/img/Personajes/Goku.webp" alt="Gokugamer"></div>
+    <div class="card"><h3>Garf</h3><p>Obsesionado con las esmeraldas. Chiflado nivel legendario.</p><img src="assets/img/Personajes/Garf.webp" alt="Garf"></div>
+  </div>
+</section>
+
+<!-- SECUNDARIOS -->
+<section class="personajes section" id="personajes-secundarios">
+  <h2>Personajes Secundarios</h2>
+  <div class="grid">
+    <div class="card"><h3>Keno</h3><p>Todo en uno. A veces tranquilo, a veces caos, siempre leal.</p><img src="assets/img/Personajes/Keno.webp" alt="Keno"></div>
+    <div class="card"><h3>Jugandocraft</h3><p>Social… pero cuando le da la esquizofrenia, no hay quien lo pare.</p><img src="assets/img/Personajes/JugandoCraft.webp" alt="Jugandocraft"></div>
+    <div class="card"><h3>Ryker</h3><p>Fan del diamante. Optimista. Fetiches raros con Marte.</p><img src="assets/img/Personajes/Ryker.webp" alt="Ryker"></div>
+    <div class="card"><h3>Profe</h3><p>Serio, sarcástico y con paciencia limitada.</p><img src="assets/img/Personajes/Profe.webp" alt="Profe"></div>
+    <div class="card"><h3>Sonel</h3><p>Rápido, distraído pero fiel aventurero.</p><img src="assets/img/Personajes/Sonel.webp" alt="Sonel"></div>
+    <div class="card"><h3>Catdroin</h3><p>Panda positivo, chismoso friendly y pana oficial del salón.</p><img src="./assets/img/Personajes/Catdroin.webp" alt="Catdroin"></div>
+    <div class="card"><h3>JP</h3><p>Silencioso. Si lo molestas, corres.</p><img src="assets/img/Personajes/JP.webp" alt="JP"></div>
+    <div class="card"><h3>Tanjiro</h3><p>Fan de Undertale. Obsesionado con Jenny. Reservado pero intenso.</p><img src="assets/img/Personajes/Tanjiro.webp" alt="Tanjiro"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="about-content">
+    <h2>¿Qué es Escuela de YouTubers?</h2>
+    <p>
+      Un proyecto donde jóvenes creadores aprenden edición, creatividad,
+      disciplina y humor… mientras sobreviven a cámaras volando,
+      ideas raras y profesores con paciencia limitada.
+      Aquí se mezclan las risas, el caos, y el sueño de ser YouTuber.
+    </p>
+    <a href="https://youtube.com/playlist?list=PLt_jmHRUHG9Pj3Gmq43ZblalWEn3TGDhg&si=5BUK57Ah8-nN5w2N" target="_blank" class="btn-about">Conocer la serie</a>
+  </div>
+  <div class="about-img">
+    <img src="assets/img/Banner.webp" alt="Escuela De YouTubers">
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contact-section section">
+  <h2>Únete a la Serie o Contáctanos</h2>
+  <p>¿Quieres formar parte de la serie o tienes algo que contarnos? ¡Déjanos tu mensaje!</p>
+
+  <form id="contact-form" action="https://formspree.io/f/xrbonkyz" method="POST" class="contact-form">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="correo" placeholder="Tu correo" required>
+    <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+    <input type="hidden" name="_subject" value="Nuevo mensaje — Escuela De YouTubers">
+    <input type="hidden" name="_language" value="es">
+    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+  </form>
+
+  <div id="form-success" class="form-success" style="display:none;">
+    ¡Mensaje enviado con éxito! Te contactaremos pronto.
+  </div>
+</section>
+
+<!-- PREGUNTAS FRECUENTES -->
+<section class="faq section">
+  <h2>Preguntas y Respuestas</h2>
+  <div class="faq-item">
+    <h3 class="faq-question">¿Cómo puedo unirme a la serie?</h3>
+    <p class="faq-answer">Puedes enviarnos tu solicitud a través del formulario de contacto. Revisamos las propuestas cada semana.</p>
+  </div>
+  <div class="faq-item">
+    <h3 class="faq-question">¿Dónde se publican los episodios?</h3>
+    <p class="faq-answer">Todos los episodios se publican en el canal de <strong>@M4RT367</strong></p>
+  </div>
+  <div class="faq-item">
+    <h3 class="faq-question">¿Puedo usar mi propio personaje?</h3>
+    <p class="faq-answer">Sí, puedes enviarnos tu personaje y lo adaptamos para la serie si encaja con el universo.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer section">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Escuela de YouTubers</h3>
+      <p>La serie donde los futuros creadores aprenden… o explotan cámaras en el intento.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Secciones</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#personajes">Personajes</a>
+      <a href="episodios.html">Episodios</a>
+      <a href="#about">Sobre La Serie</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Redes</h4>
+      <a href="https://www.youtube.com/@M4RT367/featured" target="_blank">YouTube de la Escuela</a>
+      <a href="https://www.youtube.com/@JugandoCraft" target="_blank">YouTube de PixelSebas Studio</a>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <p>© 2025 Escuela de YouTubers – Creado por PixelSebas Studio</p>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+ScrollReveal().reveal('.hero', { duration: 1200, distance: '0px', scale: 0.92, opacity: 0, delay: 150 });
+ScrollReveal().reveal('section h2', { distance: '50px', origin: 'bottom', duration: 900, opacity: 0, delay: 100 });
+ScrollReveal().reveal('.card', { distance: '60px', origin: 'bottom', duration: 1000, interval: 120, opacity: 0 });
+ScrollReveal().reveal('.about-content', { distance: '60px', origin: 'left', duration: 1000, opacity: 0, delay: 100 });
+ScrollReveal().reveal('.about-img', { distance: '60px', origin: 'right', duration: 1000, opacity: 0, delay: 200 });
+ScrollReveal().reveal('.footer', { distance: '0px', duration: 1300, opacity: 0, delay: 200 });
+
+// Envío del formulario sin recargar
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const response = await fetch(form.action, { method: form.method, body: data, headers: { 'Accept': 'application/json' } });
+
+  if (response.ok) {
+    form.reset();
+    const success = document.getElementById('form-success');
+    success.style.display = 'block';
+    success.style.animation = 'fadeIn 0.5s ease-in';
+    setTimeout(() => success.style.display = 'none', 4000);
+  } else {
+    alert('Hubo un error. Intenta nuevamente.');
+  }
+});
+
+// FAQ — Abrir/cerrar preguntas
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('active');
+  });
+});
+</script>
+ 
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.form-success {
+  margin-top: 15px; color: #fff; background: #2ecc71; padding: 10px;
+  border-radius: 8px; text-align: center; font-weight: bold;
+}
+.faq-item {
+  background: #181818; border-radius: 10px; margin-bottom: 10px;
+  padding: 15px; transition: all 0.3s; cursor: pointer;
+}
+.faq-item:hover { background: #202020; }
+.faq-answer {
+  max-height: 0; overflow: hidden; opacity: 0; transition: all 0.4s ease;
+}
+.faq-item.active .faq-answer {
+  max-height: 200px; opacity: 1;
+}
+</style>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
